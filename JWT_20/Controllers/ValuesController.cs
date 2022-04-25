@@ -19,6 +19,14 @@ namespace JWT_20.Controllers
         {
             this.context = context;
         }
+        private readonly IBildirim bildirim;
+
+        public ValuesController(IBildirim bildirim)
+        {
+            this.bildirim = bildirim;
+        }
+
+
 
         // GET: api/<ValuesController>
         [HttpGet]
@@ -35,8 +43,27 @@ namespace JWT_20.Controllers
 
                 throw new Exception(ex.Message);
             }
-           
+
         }
+        [HttpGet]
+        [Route("bildir")]
+        public string Bildir()
+        {
+            return bildirim.Gonder();
+        }
+        [HttpGet]
+        [Route("kampanya")]
+        public string Kampanya()
+        {
+            return bildirim.Gonder();
+        }
+        [HttpGet]
+        [Route("sonuc")]
+        public string Sonuc()
+        {
+            return bildirim.Gonder();
+        }
+
 
         // GET api/<ValuesController>/5
         [HttpGet("{id}")]

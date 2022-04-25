@@ -22,6 +22,7 @@ namespace JWT_20.Controllers
         {
             _logger = logger;
         }
+      
 
         [HttpGet]
         public IEnumerable<WeatherForecast> Get()

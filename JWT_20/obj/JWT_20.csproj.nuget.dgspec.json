@@ -1,25 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Work\\dotnet\\EgemenOzmen\\JWT_20\\JWT_20\\JWT_20.csproj": {}
+    "C:\\Users\\Egemen_Ozmen\\source\\repos\\Egemen_JWT20\\JWT_20\\JWT_20.csproj": {}
   },
   "projects": {
-    "C:\\Work\\dotnet\\EgemenOzmen\\JWT_20\\JWT_20\\JWT_20.csproj": {
+    "C:\\Users\\Egemen_Ozmen\\source\\repos\\Egemen_JWT20\\JWT_20\\JWT_20.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Work\\dotnet\\EgemenOzmen\\JWT_20\\JWT_20\\JWT_20.csproj",
+        "projectUniqueName": "C:\\Users\\Egemen_Ozmen\\source\\repos\\Egemen_JWT20\\JWT_20\\JWT_20.csproj",
         "projectName": "JWT_20",
-        "projectPath": "C:\\Work\\dotnet\\EgemenOzmen\\JWT_20\\JWT_20\\JWT_20.csproj",
-        "packagesPath": "C:\\Users\\mahmutEsitmez\\.nuget\\packages\\",
-        "outputPath": "C:\\Work\\dotnet\\EgemenOzmen\\JWT_20\\JWT_20\\obj\\",
+        "projectPath": "C:\\Users\\Egemen_Ozmen\\source\\repos\\Egemen_JWT20\\JWT_20\\JWT_20.csproj",
+        "packagesPath": "C:\\Users\\Egemen_Ozmen\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Egemen_Ozmen\\source\\repos\\Egemen_JWT20\\JWT_20\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\mahmutEsitmez\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\Egemen_Ozmen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -97,7 +96,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.104\\RuntimeIdentifierGraph.json"
         }
       }
     }

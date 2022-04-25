@@ -17,7 +17,7 @@ namespace JWT_20.Controllers
 {
     [Route("[controller]")]
     [ApiController]
-    [Authorize]
+    //[Authorize]
     public class AuttController : ControllerBase
     {
         private UserManager<ApplicationUser> userManager;

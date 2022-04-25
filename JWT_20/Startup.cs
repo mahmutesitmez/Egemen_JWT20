@@ -34,7 +34,7 @@ namespace JWT_20
         {
 
             services.AddControllers();
-
+            services.AddTransient<IBildirim, Eposta>();
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "JWT_20", Version = "v1" });
@@ -117,13 +117,7 @@ namespace JWT_20
                 app.UseSwagger();
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "EgeLab.WebAPI v1"));
             }
-            app.UseCors(builder =>
-            {
-                builder.AllowAnyMethod()
-                .AllowAnyHeader()
-                .AllowCredentials()
-                .WithOrigins("http://localhost:4200");
-            });
+           
 
             app.UseHttpsRedirection();
 
@@ -137,7 +131,29 @@ namespace JWT_20
             });
             SeedData.Initialize(app.ApplicationServices.GetRequiredService<IServiceScopeFactory>().CreateScope().ServiceProvider);
 
-         
+            app.UseCors(builder =>
+            {
+                builder.AllowAnyMethod()
+                .AllowAnyHeader()
+                .AllowCredentials()
+                .AllowAnyOrigin()
+                .WithOrigins("https://localhost:44393");
+
+            });
+
+
+            //app.UseCors(builder =>
+            //{
+            //    builder.AllowAnyOrigin()
+            //    .AllowAnyMethod()
+            //    .AllowAnyHeader()
+
+            //    .AllowCredentials();
+
+
+            //});
+
+
             app.UseStaticFiles();
 
          

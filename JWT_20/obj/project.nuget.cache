@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "ET4pK5GCmTyfLik3Rzhv0bHPK7BCXDvx0PAoQMlXcgHZ0ZgeS0uM4A0hU2xRoOKMBaXuOnbu/D5C77dwbIIArA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Egemen_Ozmen\\source\\repos\\Egemen_JWT20\\JWT_20\\JWT_20.csproj",
+=======
+  "dgSpecHash": "eeGT/fTV9AZgv2uqpYIsa/iSkhPhMIj82xo0o6Xp8MdNq19nW7TdPywkgxoh3QWIej5DtJTW6sPzAh7QV0rRYw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Egemen_Ozmen\\Desktop\\sevaluq\\JWT_20\\JWT_20.csproj",
+>>>>>>> 2d88c7c62636d2eec5f58129a2213416994ef7bb
   "expectedPackageFiles": [
     "C:\\Users\\Egemen_Ozmen\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Egemen_Ozmen\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\5.0.15\\microsoft.aspnetcore.authentication.jwtbearer.5.0.15.nupkg.sha512",

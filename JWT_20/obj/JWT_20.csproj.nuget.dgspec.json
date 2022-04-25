@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "C:\\Users\\Egemen_Ozmen\\source\\repos\\Egemen_JWT20\\JWT_20\\JWT_20.csproj": {}
   },
   "projects": {
@@ -12,6 +13,19 @@
         "projectPath": "C:\\Users\\Egemen_Ozmen\\source\\repos\\Egemen_JWT20\\JWT_20\\JWT_20.csproj",
         "packagesPath": "C:\\Users\\Egemen_Ozmen\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Egemen_Ozmen\\source\\repos\\Egemen_JWT20\\JWT_20\\obj\\",
+=======
+    "C:\\Users\\Egemen_Ozmen\\Desktop\\sevaluq\\JWT_20\\JWT_20.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Egemen_Ozmen\\Desktop\\sevaluq\\JWT_20\\JWT_20.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Egemen_Ozmen\\Desktop\\sevaluq\\JWT_20\\JWT_20.csproj",
+        "projectName": "JWT_20",
+        "projectPath": "C:\\Users\\Egemen_Ozmen\\Desktop\\sevaluq\\JWT_20\\JWT_20.csproj",
+        "packagesPath": "C:\\Users\\Egemen_Ozmen\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Egemen_Ozmen\\Desktop\\sevaluq\\JWT_20\\obj\\",
+>>>>>>> 2d88c7c62636d2eec5f58129a2213416994ef7bb
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
